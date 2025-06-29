@@ -38,7 +38,7 @@ img {
 
 .link {
   text-decoration: none;
-  object-fit: contain;
+  display: inline-block;
 }
 
 .site-nav > .link {
@@ -82,6 +82,10 @@ address {
 
 .logo.link {
   margin-right: 76px;
+}
+
+.footer .container .logo.footer.link {
+  margin-bottom: 16px;
 }
 
 .menu.list {
@@ -219,6 +223,7 @@ address {
 
 .four-section {
   background-color: #f4f4fd;
+  padding-top: 120px;
 }
 
 .third-section .list .underlist {
@@ -340,6 +345,10 @@ footer {
   flex-shrink: 0;
 }
 
+.footer {
+  padding: 100px 0;
+}
+
 .footer .link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -367,16 +376,35 @@ footer {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+  max-width: 264px;
   letter-spacing: 0.32px;
 }
 
 .section-title {
   font-size: 36px;
   line-height: 1.11;
+  margin-bottom: 72px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.list.four-section {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.list .what-we-do-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.what-we-do.description {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .card-title {
@@ -385,6 +413,7 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .card-description {
