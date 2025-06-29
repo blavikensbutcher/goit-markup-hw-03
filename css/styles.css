@@ -75,6 +75,10 @@ address {
   font-style: normal;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 .site-nav {
   display: flex;
   align-items: center;
@@ -171,10 +175,6 @@ address {
   gap: 24px;
 }
 
-.second-section {
-  padding: 120px 0;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -208,11 +208,6 @@ address {
 .first-section {
   padding: 188px 0;
   background-color: #2e2f42;
-}
-
-.third-section {
-  background-color: #f4f4fd;
-  padding: 120px 0;
 }
 
 .list-item {
