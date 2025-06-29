@@ -374,6 +374,7 @@ footer {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
 }
 
 .footer-text {
