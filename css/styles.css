@@ -134,6 +134,7 @@ address {
 
 .third-header {
   color: #2e2f42;
+  margin-bottom: 8px;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -150,6 +151,29 @@ address {
   line-height: 1.2;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+
+.list.second-section {
+  display: flex;
+  gap: 24px;
+}
+
+.second-section {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .portfolio-section .list .about-our-work {
@@ -231,6 +255,10 @@ address {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.second-section.list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .navigation-menu-item {
