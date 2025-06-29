@@ -404,7 +404,7 @@ footer {
   row-gap: 48px;
 }
 
-.list .what-we-do-item {
+.what-we-do-item {
   width: calc((100% - 48px) / 3);
 }
 
