@@ -79,6 +79,7 @@ address {
   display: flex;
   align-items: center;
   text-decoration: none;
+  margin-right: auto;
 }
 
 .logo.link {
