@@ -283,7 +283,10 @@ address {
 }
 
 .navigation-menu-item {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-right: 0;
+  padding-bottom: 24px;
+  padding-left: 0;
 }
 
 .contacts.item {
@@ -391,6 +394,7 @@ footer {
 }
 
 .list.four-section {
+  padding-top: 120px;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
