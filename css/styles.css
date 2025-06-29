@@ -14,8 +14,26 @@ body {
   list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p {
   margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .link {
@@ -57,7 +75,18 @@ address {
 }
 
 .site-nav {
+  display: flex;
+  align-items: center;
   text-decoration: none;
+}
+
+.logo.link {
+  margin-right: 76px;
+}
+
+.menu.list {
+  display: flex;
+  gap: 40px;
 }
 
 .site-nav .list .link:hover,
@@ -183,6 +212,26 @@ address {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.main-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.contacts.list {
+  display: flex;
+  gap: 40px;
+}
+
+.navigation-menu-item {
+  padding: 24px 0;
 }
 
 .contacts-mail:hover {

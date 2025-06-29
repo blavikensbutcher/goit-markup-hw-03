@@ -8,6 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="modern-normalize" level="application" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="ba37b878-ee31-4fe7-9ac6-0a9cece8f320" />
