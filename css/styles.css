@@ -227,10 +227,15 @@ address {
 
 .contacts.list {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
 .navigation-menu-item {
+  padding: 24px 0;
+}
+
+.contacts.item {
   padding: 24px 0;
 }
 
