@@ -38,7 +38,6 @@ img {
 
 .link {
   text-decoration: none;
-  padding: 24px 0;
   display: inline-block;
 }
 
@@ -84,6 +83,7 @@ address {
   align-items: center;
   text-decoration: none;
   margin-right: auto;
+  padding: 24px 0;
 }
 
 .logo.link {
@@ -140,6 +140,9 @@ address {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 }
 
 .third-header {
@@ -149,7 +152,6 @@ address {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
 }
 
@@ -187,6 +189,10 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.header-container {
+  display: flex;
 }
 
 .portfolio-section .list .about-our-work {
@@ -230,6 +236,7 @@ address {
 
 .position-container {
   padding: 32px 0;
+  text-align: center;
 }
 
 .four-section > h2 {
@@ -254,7 +261,6 @@ address {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .main-header {
@@ -262,7 +268,6 @@ address {
 }
 
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -278,21 +283,15 @@ address {
   width: calc((100% - 72px) / 4);
 }
 
-.navigation-menu-item {
-  padding-top: 24px;
-  padding-right: 0;
-  padding-bottom: 24px;
-  padding-left: 0;
-}
-
-.contacts.item {
-  padding: 24px 0;
-}
-
 .contacts-mail:hover {
   color: #404bbf;
   justify-content: center;
   flex-shrink: 0;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
 }
 
 .order-service-button {
@@ -311,6 +310,8 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-service-button:hover,
