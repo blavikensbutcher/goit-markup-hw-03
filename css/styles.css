@@ -368,7 +368,16 @@ footer {
 }
 
 .footer-container {
+  display: block;
   flex-direction: column;
+}
+
+.four-container {
+  display: block;
+}
+
+.third-container {
+  display: block;
 }
 
 .section-title {
@@ -382,7 +391,6 @@ footer {
 }
 
 .list.four-section {
-  padding-top: 120px;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
