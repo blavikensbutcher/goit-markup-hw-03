@@ -83,6 +83,9 @@ address {
   align-items: center;
   text-decoration: none;
   margin-right: auto;
+}
+
+.main-header a {
   padding: 24px 0;
 }
 
@@ -191,10 +194,6 @@ address {
   overflow: hidden;
 }
 
-.header-container {
-  display: flex;
-}
-
 .portfolio-section .list .about-our-work {
   font-size: 16px;
   line-height: 1.5;
@@ -209,6 +208,10 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.header-container {
+  display: flex;
 }
 
 .first-section {
